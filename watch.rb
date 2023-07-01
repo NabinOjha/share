@@ -1,0 +1,1 @@
+system("observr lib/share/scraper.rb")

@@ -1,10 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "scraper/version"
+require "pry"
 
-module Share
-  module Scraper
-    class Error < StandardError; end
-    # Your code goes here...
-  end
-end
+require_relative "scraper/version"
+require_relative "scraper/browser"
+
+Share::Scraper::Browser.new

@@ -11,3 +11,9 @@ Style/StringLiteralsInInterpolation:
 
 Layout/LineLength:
   Max: 120
+
+convention:Style/Documentation:
+  Enabled: false
+
+convention:Style/FrozenStringLiteralComment:
+  Enabled: false
